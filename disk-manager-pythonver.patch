@@ -1,0 +1,12 @@
+diff -urN disk-manager-1.0.1/configure.in disk-manager-1.0.1.new/configure.in
+--- disk-manager-1.0.1/configure.in	2007-07-16 17:29:16.000000000 +0200
++++ disk-manager-1.0.1.new/configure.in	2008-03-09 17:47:56.277133116 +0100
+@@ -36,7 +36,7 @@
+ AC_PROG_INTLTOOL
+ 
+ # Check for python > 2.4 and pygtk > 2.6
+-AM_PATH_PYTHON_VERSION(2.4, 2.4.0, 2.5, 2.5.0)
++AM_PATH_PYTHON(2.4, 2.4.0, 2.5, 2.5.0, 2.5.2)
+ AC_DEFUN([required_pygtk_version], [2.6.0])
+ AC_SUBST([PYOPTIONS], [-OOt])
+ AC_MSG_CHECKING(for pygtk >= required_pygtk_version installed)
