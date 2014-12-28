@@ -13,7 +13,7 @@ Source0:	http://flomertens.free.fr/disk-manager/download/source/%{name}-%{versio
 # Source0-md5:	904f47f2b2d51871fa4d0ee6f9051921
 Patch0:     %{name}-pythonver.patch
 URL:		http://flomertens.free.fr/disk-manager/
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:  intltool
 BuildRequires:  python-pygtk-devel >= 2.6.0
 #Requires:	-
